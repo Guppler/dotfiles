@@ -62,9 +62,9 @@ call plug#begin()
   Plug 'morhetz/gruvbox'            " Colorscheme
   Plug 'preservim/nerdtree'         " file navigator
   Plug 'vim-python/python-syntax'   " Improved python syntax highlighting
-  Plug 'davidhalter/jedi-vim'
-  Plug 'ervandew/supertab'
-  Plug 'christoomey/vim-tmux-navigator'
+  Plug 'davidhalter/jedi-vim'       " Language server for python (autocomplete)
+  Plug 'ervandew/supertab'          " Use tab for autocomplete
+  Plug 'christoomey/vim-tmux-navigator' " Easier movement between tmux and vim
 call plug#end()
 
 " ALE
