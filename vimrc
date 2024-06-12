@@ -48,6 +48,7 @@ set nofoldenable
 
 set backspace=indent,eol,start
 set formatoptions+=j
+set clipboard=unnamedplus
 
 " Plugins
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
@@ -74,17 +75,17 @@ set signcolumn=number
 colorscheme gruvbox
 set background=dark
 
-let g:python_highlight_all = 1
-
-
-" JEDI
-let g:jedi#show_call_signatures=1
-let g:jedi#auto_initialization=1
-let g:jedi#popup_on_dot=1
-let g:jedi#smart_auto_mappings = 1
-let g:jedi#popup_select_first=0
-autocmd FileType python setlocal completeopt-=preview
-
-let g:SuperTabDefaultCompletionType="<c-x><c-o>" " Setting supertab to 'jedi'
-
-
+"let g:python_highlight_all = 1
+"
+"
+"" JEDI
+"let g:jedi#show_call_signatures=1
+"let g:jedi#auto_initialization=1
+"let g:jedi#popup_on_dot=1
+"let g:jedi#smart_auto_mappings = 1
+"let g:jedi#popup_select_first=0
+"autocmd FileType python setlocal completeopt-=preview
+"
+"let g:SuperTabDefaultCompletionType="<c-x><c-o>" " Setting supertab to 'jedi'
+"
+"
