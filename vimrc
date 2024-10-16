@@ -1,5 +1,6 @@
 " basic options
 set shell=/bin/bash
+set clipboard=unnamedplus
 
 set number
 set relativenumber
@@ -66,6 +67,7 @@ call plug#begin()
   Plug 'davidhalter/jedi-vim'       " Language server for python (autocomplete)
   Plug 'ervandew/supertab'          " Use tab for autocomplete
   Plug 'christoomey/vim-tmux-navigator' " Easier movement between tmux and vim
+  Plug 'junegunn/fzf' " Fuzzy finder
 call plug#end()
 
 " ALE
